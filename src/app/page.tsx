@@ -9,15 +9,15 @@ import Vine3 from "./_assets/Vine3.svg"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between py-24">
-      <Image src={Ceiling} alt="Vine Ceiling" className="absolute w-full -z-10 -inset-y-20" />
+      <Image src={Ceiling} alt="Vine Ceiling" className="absolute w-full -z-10 -inset-y-20 xl:block hidden" />
       <div className="absolute -z-20 w-1/2 left-0 -inset-y-0 top-96 overflow-hidden">
-        <Image src={Vine1} alt="Vine" className="absolute w-full" style={{ left: '-40%' }} />
+        <Image src={Vine1} alt="Vine" className="absolute w-full xl:block hidden" style={{ left: '-40%' }} />
       </div>
       <div className="absolute -z-30 w-2/5 left-0 -inset-y-0 overflow-hidden">
-        <Image src={Vine2} alt="Vine" className="absolute w-full" style={{ left: '-20%' }} />
+        <Image src={Vine2} alt="Vine" className="absolute w-full xl:block hidden" style={{ left: '-20%' }} />
       </div>
       <div className="absolute -z-40 w-2/5 right-0 top-0 bottom-0 overflow-hidden">
-        <Image src={Vine3} alt="Vine" className="absolute w-full" style={{ right: '-30%' }} />
+        <Image src={Vine3} alt="Vine" className="absolute w-full xl:block hidden" style={{ right: '-30%' }} />
       </div>
 
       <div></div>
