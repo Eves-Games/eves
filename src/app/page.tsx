@@ -8,7 +8,7 @@ export default function Home() {
       <Image src={EvesBrand} alt="Eve's Games Brand" className="hidden md:block" />
       <Image src={EvesApple} alt="Eve's Games Brand" className="md:hidden" />
       <p className="text-center">
-        Welcome to Eve's Games.<br/>
+        Welcome to Eve&apos;s Games.<br/>
         <a href="https://discord.gg/uBjR4r7Msq" target="_blank" className="text-blue-500 hover:text-blue-400">Discord ↗</a>
       </p>
     </main>
