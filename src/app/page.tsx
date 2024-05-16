@@ -20,9 +20,9 @@ export default function Home() {
         <Image src={Vine3} alt="Vine" className="absolute w-full xl:block hidden" style={{ right: '-30%' }} />
       </div>
 
-      <div></div>
+      <div className="xl:block hidden" />
 
-      <div className="">
+      <div>
         <Image src={EvesBrand} alt="Eve's Games Brand" className="hidden md:block drop-shadow-xl" />
         <Image src={EvesApple} alt="Eve's Games Apple" className="md:hidden" />
       </div>
