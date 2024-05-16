@@ -10,23 +10,22 @@ import Vine6 from "./_assets/Vine6.svg"
 export default function Home() {
   return (
     <>
-      <div className="absolute flex xl:justify-around justify-center w-full items-start overflow-hidden">
-        <Image src={Vine1} alt="Eve's Games Brand" className="rotate-180" />
-        <Image src={Vine2} alt="Eve's Games Brand" className="rotate-180" />
-        <Image src={Vine3} alt="Eve's Games Brand" className="rotate-180" />
-        <Image src={Vine4} alt="Eve's Games Brand" className="rotate-180" />
-        <Image src={Vine5} alt="Eve's Games Brand" className="rotate-180" />
-        <Image src={Vine6} alt="Eve's Games Brand" className="rotate-180" />
+      <div className="absolute flex xl:justify-around justify-center w-full items-end overflow-hidden rotate-180">
+        <Image src={Vine1} alt="Eve's Games Brand" />
+        <Image src={Vine2} alt="Eve's Games Brand" />
+        <Image src={Vine4} alt="Eve's Games Brand" />
+        <Image src={Vine3} alt="Eve's Games Brand" />
+        <Image src={Vine5} alt="Eve's Games Brand" />
+        <Image src={Vine6} alt="Eve's Games Brand" />
       </div>
       <main className="flex min-h-screen flex-col items-center justify-between py-24">
-        <div/>
-
+        <div />
         <Image src={EvesApple} alt="Eve's Games Apple" className="z-10" />
-
         <p className="text-center z-10">
           Welcome to Eve&apos;s Games.<br />
           <a href="https://discord.gg/uBjR4r7Msq" target="_blank" className="text-blue-500 hover:text-blue-400">Discord ↗</a>
         </p>
+
       </main>
     </>
 
