@@ -21,11 +21,11 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between py-24">
         <div />
         <Image src={EvesApple} alt="Eve's Games Apple" className="z-10" />
-        <p className="text-center z-10">
+        <p className="text-center z-10 backdrop-blur-sm rounded-full p-4">
           Welcome to Eve&apos;s Games.<br />
+          <i>Illustrating the Corruption of the Natural World.</i><br />
           <a href="https://discord.gg/uBjR4r7Msq" target="_blank" className="text-blue-500 hover:text-blue-400">Discord ↗</a>
         </p>
-
       </main>
     </>
 
