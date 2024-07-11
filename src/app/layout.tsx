@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Eve's Games",
-  description: "Eve's Games is the game studio responsible for various digital products and services like RoLinker and Arstotzka, across different platforms like Roblox and Minecraft.",
+  description: "Illustrating the corruption of the natural world through digital art.",
 };
 
 export default function RootLayout({
